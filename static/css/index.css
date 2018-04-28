@@ -1,0 +1,76 @@
+body {
+	margin: 0;
+	padding-top: 0;
+	background: url('https://raw.githubusercontent.com/obliviate-dan/Login-Form/master/img/bg.png') no-repeat fixed center;
+	background-size: cover;
+	background-position: center;
+	font-family: Roboto, sans-serif;
+}
+
+.login-box {
+	width: 320px;
+	height: 480px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	border-radius: 5px;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 80px 30px;
+}
+
+.avatar {
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	top: -15%;
+	left: calc(44% - 50px);
+	border: 17px solid rgb(255, 158, 76, 0.5);
+	border-radius: 100%;
+}
+
+
+.login-box input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.login-box input[type="text"] {
+	margin-top: 60px;
+}
+
+.login-box input[type="text"], input[type="password"] {
+	border: none;
+	border-radius: 50px;
+	background: rgba(255, 255, 255, 0.8);
+	outline: none;
+	height: 35px;
+	padding-left: 15px;
+	font-size: 14px;
+	letter-spacing: 0.90px;
+}
+
+.login-box input[type="button"]{
+	border: none;
+	outline: none;
+	cursor: pointer;
+	height: 40px;
+	background: #FF9E4CFF;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 20px;
+	margin-bottom: 30px;
+}
+
+.login-box input[type="button"]:hover {
+	background: #FF9035FF;
+	transition: 0.5s;
+}
+
+a {
+	font-size: 13px;
+	color: #fff;
+	text-decoration: none;
+}

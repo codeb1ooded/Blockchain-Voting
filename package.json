@@ -1,0 +1,20 @@
+{
+  "name": "hello_world_voting",
+  "version": "1.0.0",
+  "description": "Voting via blockchain",
+  "main": "index.js",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "ejs": "^2.5.9",
+    "ganache-cli": "^6.1.0",
+    "mysql": "^2.15.0",
+    "solc": "^0.4.21",
+    "web3": "^0.20.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Megha",
+  "license": "ISC"
+}

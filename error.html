@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Voting Application</title>
+<link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+  <style>
+	body {
+  background: url("http://freedesignfile.com/upload/2015/05/White-decorative-pattern-vector-background-04.jpg");
+}
+
+h2 {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.article {
+  font-family: Exo;
+  width: 350px;
+  text-align: justify;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.text {
+  padding: 10px;
+  box-sizing: border-box;
+  background: #9DB1CC;
+}
+
+.before {
+  display: table;
+  height: 50px;
+  width: 300px;
+  background: #9DB1CC;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.before:before {
+  content: "";
+  position: absolute;
+  right: -50px;
+  top: 0;
+  border-top: 50px solid transparent;
+  border-left: 50px solid #B9CBDF;
+  border-right: 50px solid transparent;
+  box-shadow: 0px 0px 5px black;
+}
+
+.after {
+  display: table;
+  position: relative;
+  float: right;
+  height: 50px;
+  width: 300px;
+  background: #9DB1CC;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.after:before {
+  content: "";
+  position: absolute;
+  left: -100px;
+  top: 0;
+  border-bottom: 50px solid transparent;
+  border-right: 50px solid #B9CBDF;
+  border-left: 50px solid transparent;
+  box-shadow: 0px 0px 5px black;
+}
+
+</style>
+</head>
+<body class="container">
+<div class="article">
+	<div class="before"></div>
+<div class="text">
+	<h2>
+	Some error occurred<br/>
+Unable to vote!!<br/>
+Please try again!
+	</h2>
+</div>
+<div class="after"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Voting App</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="jumbotron">
+  <div class="container">
+  <h1>Vote Your Favourite Candidate!</h1>
+
+<form name="vote" action="/voted" method="post">
+<table class="table table-hover table-dark center">
+  <thead class="bg-info">
+    <tr>
+      <th scope="col">Candidate ID</th>
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">Vote</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">C1</th>
+      <td>Rama</td>
+      <td>Otto</td>
+      <td><input type="radio" id="candidate" name="candidate" value="Rama"></td>
+    </tr>
+    <tr>
+      <th scope="row">C2</th>
+      <td>Nick</td>
+      <td>Thornton</td>
+      <td><input type="radio" id="candidate" name="candidate" value="Nick"></td>
+    </tr>
+    <tr>
+      <th scope="row">C3</th>
+      <td>Jose</td>
+      <td>Hurd</td>
+      <td><input type="radio" id="candidate" name="candidate" value="Jose"></td>
+    </tr>
+  </tbody>
+</table>
+	<button class="btn btn-primary">Freeze My Vote!</a>
+  
+</div>
+</div>
+<marquee>Select a candidate to vote from the vote column and click 'Freeze My Vote' button</marquee>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</html>
